@@ -1,50 +1,18 @@
-1485522349448	geckodriver	INFO	Listening on 127.0.0.1:50514
-1485522351824	mozprofile::profile	INFO	Using profile path C:\Users\USER\AppData\Local\Temp\rust_mozprofile.OsHgEkq9dRtN
-1485522351824	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
-1485522351855	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50522
-1485522358394	Marionette	INFO	Listening on port 50522
-1485522424461	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
-*************************
-A coding exception was thrown and uncaught in a Task.
-
-Full message: TypeError: NetworkError when attempting to fetch resource.
-Full stack: 
-*************************
-[Child 5244] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 5244] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1485524568320	geckodriver	INFO	Listening on 127.0.0.1:50582
-1485524570577	mozprofile::profile	INFO	Using profile path C:\Users\USER\AppData\Local\Temp\rust_mozprofile.Uld9vsLYVLvm
-1485524570577	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
-1485524570592	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50590
-1485524575308	Marionette	INFO	Listening on port 50590
-[Child 11032] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1485525082907	geckodriver	INFO	Listening on 127.0.0.1:50614
-1485525085077	mozprofile::profile	INFO	Using profile path C:\Users\USER\AppData\Local\Temp\rust_mozprofile.S0soguImnWlI
-1485525085077	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
-1485525085092	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50622
-1485525092629	Marionette	INFO	Listening on port 50622
-1485525156340	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
-*************************
-A coding exception was thrown and uncaught in a Task.
-
-Full message: TypeError: NetworkError when attempting to fetch resource.
-Full stack: 
-*************************
-1485526312062	geckodriver	INFO	Listening on 127.0.0.1:50659
-1485526314333	mozprofile::profile	INFO	Using profile path C:\Users\USER\AppData\Local\Temp\rust_mozprofile.2eLwL4Ff9Lk5
-1485526314348	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
-1485526314364	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50667
-1485526322136	Marionette	INFO	Listening on port 50667
-1485526389576	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
-*************************
-A coding exception was thrown and uncaught in a Task.
-
-Full message: TypeError: NetworkError when attempting to fetch resource.
-Full stack: 
-*************************
-1485527059263	geckodriver	INFO	Listening on 127.0.0.1:50696
-1485527061475	mozprofile::profile	INFO	Using profile path C:\Users\USER\AppData\Local\Temp\rust_mozprofile.IU58MuQqYKNQ
-1485527061475	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
-1485527061490	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50704
-1485527067817	Marionette	INFO	Listening on port 50704
-[Child 8232] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485736014184	geckodriver	INFO	Listening on 127.0.0.1:54973
+1485736016340	mozprofile::profile	INFO	Using profile path C:\Users\USER\AppData\Local\Temp\rust_mozprofile.La852bapyjRe
+1485736016340	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1485736016387	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54979
+1485736028206	Marionette	INFO	Listening on port 54979
+[Child 16076] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485737158556	geckodriver	INFO	Listening on 127.0.0.1:55421
+1485737161718	mozprofile::profile	INFO	Using profile path C:\Users\USER\AppData\Local\Temp\rust_mozprofile.4ZbxndgAWXLW
+1485737161723	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1485737161759	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55427
+1485737169463	Marionette	INFO	Listening on port 55427
+[Child 6640] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1485743010414	geckodriver	INFO	Listening on 127.0.0.1:49746
+1485743012323	mozprofile::profile	INFO	Using profile path C:\Users\USER\AppData\Local\Temp\rust_mozprofile.eR7lonZ9YtBB
+1485743012339	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1485743012542	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49752
+1485743017807	Marionette	INFO	Listening on port 49752
+[Child 7196] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
