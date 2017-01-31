@@ -1,4 +1,4 @@
-
+from django.template.loader import render_to_string
 from django.core.urlresolvers import resolve
 from django.test import TestCase
 from django.http import HttpRequest
@@ -17,6 +17,5 @@ class HomePageTest(TestCase):
         request = HttpRequest()
         response = home_page(request)
         html = response.content.decode('utf8')
-        self.assertTrue(html.startswith('<html>'))
-        self.assertIn('<title>To-Do lists</title>', html)
-        self.assertTrue(html.endswith('</html>'))
+        expected_html = render_to_string('home.html')
+        self.assertEqual(response.content.decode(), expected_html)
