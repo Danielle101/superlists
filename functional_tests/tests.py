@@ -2,7 +2,6 @@ from django.test import LiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-
 class NewVisitorTest(LiveServerTestCase):
 
     def setUp(self):
@@ -36,7 +35,7 @@ class NewVisitorTest(LiveServerTestCase):
 
         # She types "Buy peacock feathers" into a text box (Edith's hobby
         # is tying fly-fishing lures)
-        inputbox.send_keys('Buy peacock feather')
+        inputbox.send_keys('Buy peacock feathers')
 
         #When she his enter, the page updates, and now the page lists
         # "1: Buy peacock feathers" as an item in a to-do list table
@@ -62,6 +61,7 @@ class NewVisitorTest(LiveServerTestCase):
         ## of Edith's is coming through from the cookies etc #
         self.browser.quit()
         self.browser = webdriver.Firefox()
+        self.browser.implicitly_wait(10)
 
         # Francis visits the home page. There is no sign of Edith's
         # list
@@ -87,3 +87,26 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertIn('Buy milk', page_text)
 
         # Satisfied, they both go to sleep
+        
+    def test_layout_and_styling(self):
+        # Edith goes to the home page
+        self.browser.get(self.live_server_url)
+        self.browser.set_window_size(1024, 768)
+
+        # She notices the input box is nicely centered
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        self.assertAlmostEqual(
+            inputbox.location['x'] + inputbox.size['width'] / 2,
+            512,
+            delta=5
+        )
+
+        # She starts a new list and sees the input is nicely
+        # centered there too
+        inputbox.send_keys('testing\n')
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        self.assertAlmostEqual(
+            inoutbox.location['x'] + inputbox.size['width'] /2,
+            512,
+            delta=5
+            )
