@@ -869,3 +869,21 @@
 1486650002804	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53752
 1486650006351	Marionette	INFO	Listening on port 53752
 [Child 19720] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1487165223767	geckodriver	INFO	Listening on 127.0.0.1:57770
+1487165225222	mozprofile::profile	INFO	Using profile path C:\Users\USER\AppData\Local\Temp\rust_mozprofile.oEssjpRIaYWB
+1487165225237	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1487165225347	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57776
+1487165239201	Marionette	INFO	Listening on port 57776
+[Child 118036] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1487165262984	geckodriver	INFO	Listening on 127.0.0.1:57848
+1487165265077	mozprofile::profile	INFO	Using profile path C:\Users\USER\AppData\Local\Temp\rust_mozprofile.wUYUjQJkEifh
+1487165265077	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1487165265093	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57854
+1487165268051	Marionette	INFO	Listening on port 57854
+[Child 120088] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1487165277866	geckodriver	INFO	Listening on 127.0.0.1:57891
+1487165279877	mozprofile::profile	INFO	Using profile path C:\Users\USER\AppData\Local\Temp\rust_mozprofile.a8C1BUGsNdEv
+1487165279892	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1487165279908	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57897
+1487165282834	Marionette	INFO	Listening on port 57897
+[Child 121744] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
