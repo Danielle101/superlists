@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
 
+# -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
 from django.db import migrations, models
-import django.db.models.deletion
 
 
 class Migration(migrations.Migration):
@@ -16,6 +15,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='item',
             name='list',
-            field=models.ForeignKey(default=None, on_delete=django.db.models.deletion.CASCADE, to='lists.List'),
+            field=models.ForeignKey(default=None, to='lists.List'),
         ),
     ]
